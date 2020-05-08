@@ -46,6 +46,7 @@ h1 {
 #navbar li {
     list-style-type: none;
     padding-right: 20px;
+    padding-left: 30px;
     font-size: 1.24rem;
 }
 
@@ -225,8 +226,8 @@ footer p {
 
 @media(min-width: 768px) {
     #navbar li {
-        list-style-type: none;
         padding-right: 20px;
+        padding-left: 30px;
         font-size: 1.5rem;
     }
     #welcome-section h1 {
