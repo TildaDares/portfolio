@@ -90,6 +90,20 @@ h1 {
     border-radius: 5px;
     text-align: center;
     margin-top: 14px;
+    opacity: 0;
+    animation-name: fade;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0%;
+    }
+    100% {
+        opacity: 100%;
+    }
 }
 
 .aboutme-btn:hover {
