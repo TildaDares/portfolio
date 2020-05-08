@@ -78,6 +78,7 @@ h1 {
 #welcome-section span {
     color: purple;
     font-size: 2.6rem;
+    background: rgba(255, 255, 255, 0.6);
 }
 
 .aboutme-btn {
@@ -136,7 +137,8 @@ h1 {
     }
 }
 
-.aboutme-btn:hover {
+.aboutme-btn:hover,
+#submit:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.9);
 }
 
@@ -205,10 +207,9 @@ form {
     width: 90%;
     margin: auto;
     border: 1px ridge rgba(0, 0, 0, 0.575);
-    padding-left: 20px;
     padding-top: 20px;
     margin-top: 20px;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
     padding-bottom: 30px;
     background: white;
 }
@@ -221,6 +222,7 @@ form {
 form label {
     font-size: 1.2rem;
     color: purple;
+    padding-left: 20px;
 }
 
 form input {
@@ -230,12 +232,29 @@ form input {
     margin-bottom: 20px;
     margin-top: 10px;
     width: 70%;
+    margin-left: 20px;
 }
 
 textarea {
     margin-top: 10px;
     width: 90%;
     height: 150px;
+    margin-left: 20px;
+}
+
+#submit {
+    background: purple;
+    color: white;
+    width: 170px;
+    height: 38px;
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 30px;
+    border: 1px hidden black;
+    border-radius: 5px;
 }
 
 footer {
