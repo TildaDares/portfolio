@@ -209,7 +209,7 @@ textarea {
 }
 
 footer {
-    background: rgb(229, 226, 232);
+    background: rgba(199, 125, 255, 0.2);
     width: 100%;
     height: 250px;
 }
