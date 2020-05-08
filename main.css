@@ -93,7 +93,7 @@ h1 {
     opacity: 0;
     animation-name: fade;
     animation-duration: 5s;
-    animation-delay: 2s;
+    animation-delay: 1s;
     animation-fill-mode: forwards;
 }
 
