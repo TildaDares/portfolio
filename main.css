@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    background: rgba(128, 0, 128, 0.116);
+    font-family: 'Chivo', sans-serif;
+    font-weight: 300;
+}
+
+header {
+    background: url('avel-chuklanov-DUmFLtMeAbQ-unsplash.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+}
+
+#navbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgb(187, 142, 187);
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: black;
+}
+
+#navbar li {
+    list-style-type: none;
+    padding-right: 20px;
+    font-size: 1.24rem;
+}
+
+#navbar li:hover {
+    transform: scale(1.1);
+}
+
+#navbar a:hover {
+    color: purple;
+}
+
+#welcome-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    line-height: 1.5;
+}
+
+#welcome-section h1 {
+    font-size: 2.4rem;
+}
+
+#welcome-section h2 {
+    font-size: 1.8rem;
+}
+
+#welcome-section span {
+    color: purple;
+    font-size: 2.6rem;
+}
+
+.aboutme-btn {
+    width: 130px;
+    height: 35px;
+    background: purple;
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 14px;
+}
+
+.aboutme-btn:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.9);
+}
+
+#aboutme,
+#projects,
+#contact {
+    margin-left: 10px;
+    font-size: 1.1rem;
+    margin-top: 25px;
+}
+
+#aboutme h1 {
+    color: purple;
+    padding-left: 20px;
+}
+
+#aboutme p {
+    line-height: 1.5;
+    padding-left: 20px;
+}
+
+#aboutme ul {
+    padding-left: 40px;
+    padding-top: 10px;
+}
+
+#projects h1 {
+    padding-bottom: 20px;
+    color: purple;
+    padding-left: 20px;
+}
+
+.project-tile {
+    width: 90%;
+    height: 300px;
+    margin: auto;
+    margin-bottom: 80px;
+}
+
+.project-tile img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: purple;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.links a {
+    margin: auto;
+    text-decoration: none;
+    color: white;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+form {
+    width: 90%;
+    margin: auto;
+    border: 1px ridge rgba(0, 0, 0, 0.575);
+    padding-left: 20px;
+    padding-top: 20px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    padding-bottom: 30px;
+    background: white;
+}
+
+#contact h1 {
+    color: purple;
+    padding-left: 20px;
+}
+
+form label {
+    font-size: 1.2rem;
+    color: purple;
+}
+
+form input {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    width: 70%;
+}
+
+textarea {
+    margin-top: 10px;
+    width: 90%;
+    height: 150px;
+}
+
+footer {
+    background: rgb(190, 175, 190);
+    width: 100%;
+    height: 180px;
+}
+
+.alt {
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+}
+
+.alt i {
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+.alt i:hover {
+    transform: scale(1.7);
+}
+
+footer p {
+    margin-left: 20px;
+    line-height: 1.5;
+}
+
+@media(min-width: 768px) {
+    #navbar li {
+        list-style-type: none;
+        padding-right: 20px;
+        font-size: 1.5rem;
+    }
+    #welcome-section h1 {
+        font-size: 3.5rem;
+    }
+    #welcome-section h2 {
+        font-size: 2.5rem;
+    }
+    #welcome-section span {
+        color: purple;
+        font-size: 3.9rem;
+    }
+    .aboutme-btn {
+        width: 160px;
+        height: 43px;
+        font-size: 1.6rem;
+        border-radius: 5px;
+        margin-top: 14px;
+    }
+    h1 {
+        font-size: 2.3rem;
+    }
+    .project-tile {
+        width: 60%;
+        height: 380px;
+        margin: auto;
+        margin-bottom: 80px;
+    }
+    .project-tile:hover {
+        transform: scale(1.07);
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.9);
+    }
+    form {
+        width: 70%;
+    }
+    form input {
+        width: 90%;
+    }
+    textarea {
+        margin-top: 10px;
+        width: 90%;
+        height: 150px;
+    }
+}
+
+@media(min-width: 1000px) {
+    main {
+        width: 70%;
+        margin: auto;
+    }
+    .project-tile {
+        width: 50%;
+        margin-bottom: 140px;
+    }
+    form {
+        width: 60%;
+    }
+    form input {
+        width: 90%;
+    }
+    textarea {
+        margin-top: 10px;
+        width: 90%;
+        height: 150px;
+    }
+}
