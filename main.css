@@ -35,6 +35,7 @@ h1 {
     background: rgba(199, 125, 255, 0.5);
     padding-bottom: 10px;
     padding-top: 10px;
+    z-index: 500;
 }
 
 #navbar a {
